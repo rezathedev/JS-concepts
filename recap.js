@@ -37,3 +37,12 @@ for (var i = 0; i < 5; i++){
     var friend = friends[i]
     // console.log(friend);
 }
+
+// function
+
+function isMoonUP (time){
+    if(time > 7)
+    return true;
+}
+
+isMoonUP(8)
