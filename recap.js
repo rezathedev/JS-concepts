@@ -1,4 +1,4 @@
-//variables
+// 1. variables
 var age = 30;
 var myName = "Reza";
 
@@ -7,7 +7,7 @@ var myName = "Reza";
 //shorthand += -= *= /=
 // ++ --
 
-//Aarry 
+//2. Aarry 
 
 var friends = ["Reza", "Shimu", "Saddam", "Islam"]
 
@@ -15,7 +15,7 @@ var myThirdFriend = friends[2];
 
 friends[2] = "Hello"
 
-//Conditionals > < <= >= == !=
+// 3. Conditionals > < <= >= == !=
 
 if(friends.length < 2) {
     // console.log ("I dont have friends")
@@ -38,11 +38,22 @@ for (var i = 0; i < 5; i++){
     // console.log(friend);
 }
 
-// function
+// 5. function
 
-function isMoonUP (time){
-    if(time > 7)
-    return true;
+function inchToFeet(inches){
+    const feet = inches / 12
+    return feet;
 }
 
-isMoonUP(8)
+const dadaInch = 144;
+const dadaFeet = inchToFeet(dadaInch);
+
+console.log(dadaFeet);
+
+// 6. Object 
+
+var Reza = {
+    name: "Reza",
+    age = 30,
+    color = "brown"
+}
