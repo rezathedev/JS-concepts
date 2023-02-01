@@ -23,5 +23,38 @@
 
 // console.log(totalCost)
 
+// Problem 3
+
+// function kmToMile (km){
+//     var mile = km * 0.62
+//     return mile
+// }
+
+// var kilometer = 12;
+// var result = kmToMile(kilometer)
+
+// console.log(result, "miles")
 
 
+// Problem 4
+
+// function workOut (workOutName){
+//     var bicepWorkOut = ["cabel cross", "bicep"]
+//     var chestWorkOut = ["chest fly", "chest press"]
+//     var tricepWorkOut = ["tricep", "baym"]
+
+//     if (workOutName == "chest"){
+//         return chestWorkOut
+//     }
+//     else if (workOutName == "bicep"){
+//         return bicepWorkOut
+//     }
+
+//     else {
+//         return tricepWorkOut
+//     }
+// }
+
+// var workOutPlan = workOut("chest")
+
+// console.log(workOutPlan)
