@@ -54,6 +54,6 @@ console.log(dadaFeet);
 
 var Reza = {
     name: "Reza",
-    age = 30,
-    color = "brown"
+    age : 30,
+    color : "brown"
 }
