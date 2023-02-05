@@ -119,8 +119,8 @@
 //     return largest
 // }
 
-// const heights = [123, 4533, 333, 3322, 534, 553]
-// const numberList = getLowest(heights)
+//var heights = [123, 4533, 333, 3322, 534, 553]
+//var numberList = getLowest(heights)
 // console.log(numberList)
 
 // function getHeighest (numbers){
@@ -135,6 +135,115 @@
 //     return lowest
 // }
 
-// const heights = [123, 4533, 333, 3322, 534, 22]
-// const numberList = getHeighest(heights)
+//var heights = [123, 4533, 333, 3322, 534, 22]
+//var numberList = getHeighest(heights)
 // console.log(numberList)
+
+// var name1 = "Farzana "
+// var name2 = "Akter"
+
+// var fullName = name1 + name2
+// console.log(fullName)
+
+// var num1 = 2000
+// var num2 = 1000
+// var num3 = 500
+
+// if (num1 > num2 && num1 > num3){
+//     console.log ("Number 1 is largest")
+// }
+
+// else if (num2 > num1 && num2 > num3){
+//     console.log ("Number 2 is largest")
+// }
+
+// else {
+//     console.log("Number 3 is largest")
+// }
+
+
+
+//var fibo = [0,1];
+// for (let i = 2; i < 5; i++){
+//     fibo[i] = fibo[i-1] + fibo[i-2];
+// }
+// console.log(fibo)
+
+// function add(a, b){
+//     return a + b;
+//   }
+//   console.log(add("adam" + "eve"))
+
+// var names = ["reza", "islam", "shimu", "reza", "saddam", "islam"]
+// function removeDupli(names){
+//     var uniqueNames = [];
+// for (let i = 0; i < names.length; i++){
+//     var name = names[i];
+//     if (uniqueNames.includes(name) === false){
+//         uniqueNames.push(name);
+//     }
+// }
+// return uniqueNames
+// }
+
+// var singleNames = removeDupli(names)
+// console.log(singleNames)
+
+// function woodCalculator (chairWoodReq, tableWoodReq, bedWoodReq){
+// var perChair = 3;
+// var perTable = 10;
+// var perBed = 20;
+
+// var totalChair = perChair * chairWoodReq;
+// var totalTable = perTable * tableWoodReq;
+// var totalBed = perBed * bedWoodReq;
+
+// var totalWood = totalChair + totalTable + totalBed
+//     return totalWood
+// }
+
+// var total = woodCalculator(5, 2, 1)
+// console.log (total)
+
+// const phonesArr = [
+//     {name: "Samsung", camera: 32, price: 52000, color: "Black"},
+//     {name: "Iphone", camera: 20, price: 100000, color: "Black"},
+//     {name: "Oppo", camera: 52, price: 20000, color: "Black"},
+//     {name: "Vivo", camera: 322, price: 25000, color: "Black"},
+//     {name: "Walton", camera: 75, price: 66000, color: "Black"},
+// ]
+
+// function bestCameraPhone (phones){
+//     let bestCamera = phonesArr[0]
+// for (let i = 0; i < phonesArr.length; i++){
+//     const phone = phonesArr[i]
+
+//     if (bestCamera.camera < phone.camera){
+//         bestCamera = phone
+//     }
+    
+// }
+// return bestCamera
+// }
+
+
+// const mySelection = bestCameraPhone(phonesArr)
+// console.log(mySelection)
+
+var cart = [
+    {item1: "shoe", price: 1200},
+    {item2: "pant", price: 600},
+    {item3: "t-shirt", price: 100} 
+]
+function totalSum(items) {
+    var sum = 0;
+for (let i = 0; i< cart.length; i++){
+    var item = cart[i];
+    sum = sum + item.price  
+}
+
+return sum
+}
+
+totalPrice = totalSum(cart)
+console.log(totalPrice)
