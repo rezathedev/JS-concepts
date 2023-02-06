@@ -123,19 +123,7 @@
 
 // // var friendSet1 = {name: "Reza", friend: "Islam"}, {name: "Reza", friend: "Islam"}
 
-// function busFare (number){
-//     busP = number % 50;
-//     console.log(busP)
-//     microP = busP % 11;
-//     console.log(microP)
-//     pBusP = microP
-//     console.log(pBusP)
-//     microP = microP * 250
-//     return microP
-// }
-
-// var output = busFare (235)
-// console.log(output)
+// 8
 
 var busCapacity = 50;
 var microCapacity = 11;
