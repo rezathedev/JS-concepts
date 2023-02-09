@@ -247,9 +247,9 @@ var leapYear = isLeapYear(yearCount)
 
 // Problem 1
 
-function writeSorry(){
-    for (var i = 0; i<10;i++)
-    console.log("Sorry")
-}
+// function writeSorry(){
+//     for (var i = 0; i<10;i++)
+//     console.log("Sorry")
+// }
 
-writeSorry()
+// writeSorry()
